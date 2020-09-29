@@ -1,0 +1,94 @@
+
+
+html body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: table;
+}
+h1 {
+    font-family: 'Careista'; 
+    font-size: 80px;
+    text-decoration-style: wavy;
+
+}
+.container  {
+    background: rgb(224,226,191);
+background: linear-gradient(315deg, rgba(224,226,191,1) 8%, rgba(238,192,116,0.9808298319327731) 13%, rgba(245,247,126,1) 25%, rgba(214,214,202,1) 76%, rgba(235,237,194,1) 86%, rgba(255,183,158,0.9752275910364145) 90%, rgba(153,158,71,1) 100%);
+    box-shadow: 1px 1px 10px #777;
+    text-align: center;
+   
+    width: 100%;
+    height: 300px;
+}
+header {
+      background-color: bisque;
+}
+#logo 
+{
+    background-color: rgba(224,226,191) 8%;
+    
+    height: 33%;
+    float: left;
+    background-attachment: fixed;
+    
+    
+}
+#logo img {
+    
+    height: 100%;
+    
+}
+#bgimg {
+    
+    background: rgb(224,226,191);
+background: linear-gradient(267deg, rgba(224,226,191,1) 8%, rgba(217,218,162,0.8687850140056023) 13%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 76%, rgba(235,237,194,1) 86%, rgba(250,252,191,0.8631827731092436) 90%, rgba(232,233,200,1) 100%);
+}
+#person {
+    text-decoration: brown;
+    
+    
+}
+section {
+   
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    height: 500px;
+    width: 100%;
+    max-width: 1200px;
+}
+ .formclass {
+    text-align: center;
+    
+    margin: 0 10px o;
+    width: calc(100% / 2 - 23px);
+    border-radius: 8px;
+    border: none;
+    box-shadow:  3px 3px 6px #353232;
+    margin:20px 10px;
+    padding: 10px 15px;
+}
+button  {
+    border-radius:6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    float: none;
+    font-size: bold;
+    margin: 0 10px;
+    background-color:bisque ;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: background-color 500ms, color 500ms;
+}
+
+button:hover  {
+    cursor: pointer;
+    color: #000;
+    background-color: rgb(165, 123, 46);
+
+}
+::placeholder { color:rgb(211, 195, 56); }
+• ::-webkit-input-placeholder { color: rgb(211, 195, 56) }
+• ::-ms-input-placeholder { color: rgb(211, 195, 56); }
+

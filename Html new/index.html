@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Übung</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <img id="logo" src="images/logo.png" alt="Icon" />
+
+
+</header>
+<div id="bgimg">
+<section id="person" >
+
+        <h1>Herzlich Wilkommen</h1>
+        
+<form method="POST" action="person.php" >
+    <div class="formclass">
+        
+        <label for="titel">Auswahlen Sie:</label>
+        <select name="titel" id="titel">
+          <option value="ba">BA</option>
+          <option value="mag">Mag</option>
+          <option value="dr">Dr</option>
+          <option value="dr.">Dr.</option>
+        </select>
+    </div>
+        <div class="formclass">
+        <select name="solution">
+            <option value="man">Herr</option>
+            <option value="woman">Frau</option>
+        </select>
+        <input type="text" name="firstname" placeholder=" Vorname" />
+        <input type="text" name="lastname" placeholder=" Nachname" />
+        </div >
+        <div class="formclass">
+            <div class = "erst_formclass">
+        <input type="date" name="age" />
+        <input type="number" name="telefonnumer" placeholder="Telefonnummer" />
+        <input type="email" name ="email" placeholder="@email" />
+        </div>
+        <div class="formclass">
+        <input type="date" placeholder="Datum der Anreise" />
+        <input type="date" placeholder="Datum der Abreise" />
+    </div>
+    <div class="formclass">
+        <p>Auswählen zimmer bitte</p>
+        <input type="radio" name="zimmer" id="sommerzimer">
+        <label for="zimmer">Sommerzimmer</label> 
+        <input type="radio" name="zimmer" id="herbstzimer">
+        <label for="zimmer">Herbstzimmer</label> 
+        <input type="radio" name="zimmer" id="winterzimer">
+        <label for="zimmer">Winterzimmer</label> 
+        <input type="radio" name="zimmer" id="frühlingzimer">
+        <label for="zimmer">Frühlingszimmer</label> 
+    </div>
+    <div class="formclass">
+        <p>Auswählen Sie dropbox</p>
+        <input type="checkbox" name="value1">
+        <label for="value1">Massage</label>
+        <input type="checkbox" name="value2">
+        <label for="value2">Spa</label>
+        <input type="checkbox" name="value3">
+        <label for="value3">Schwimmen</label>
+        <input type="checkbox" name="value4">
+        <label for="value4">Tennis</label>
+        <input type="checkbox" name="value5">
+        <label for="value5">Kinoabend</label>
+        <input type="checkbox" name="value6">
+        <label for="value6">Bowling</label>
+    </div >
+    <div class="formclass">
+        <p>Auswählen Sie</p>
+        <label for="zahlungart">Auswahlen Sie:</label>
+        <select name="zahlungart" id="zahlungart">
+          <option value="sofortüberweisung">Sofortüberweisung</option>
+          <option value="kreditkarte">Kreditkarte</option>
+          <option value="rechnung">Rechnung</option>
+          <option value="vorkasse" id="vorkasse">Vorkasse</option>
+          <input type="text" name="kreditkartennummer" placeholder="Kreditkartennummer">
+        </div>
+        </select>
+
+    
+
+       
+</form>
+
+<form method="POST" action="upload.php" enctype="multipart/form-data">
+   <div>
+    Datei: <input name="datei" id="vorkasse" type="file">
+   </div>
+   <div>
+    <button type="reset" >Daten zurücksetzen</button>
+    <button type="submit" >Daten absenden</button>
+</div>
+
+</form>
+</section>
+
+
+        
+
+
+
+
+    
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'mightam';
+    src: url('mightam.woff2') format('woff2'),
+        url('mightam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mightam Brush';
+    src: url('MightamBrush.woff2') format('woff2'),
+        url('MightamBrush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'mightam';
+    src: url('mightam.woff2') format('woff2'),
+        url('mightam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mightam Brush';
+    src: url('MightamBrush.woff2') format('woff2'),
+        url('MightamBrush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Careista';
+    src: url('Careista.woff2') format('woff2'),
+        url('Careista.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
